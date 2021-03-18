@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{B6FF1DB1-BDD8-4D3E-8338-4143F2CD378E}]
+@="OuterComDll_WithRegFile"
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{B6FF1DB1-BDD8-4D3E-8338-4143F2CD378E}\InprocServer32]
+@="C:\\Windows\\syswow64\\ContainmentOuterComponent.dll"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{552AC6EA-ED62-4FC8-A03B-C4D8F9CF64CA}]
+@="InnerComDll_WithRegFile"
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{552AC6EA-ED62-4FC8-A03B-C4D8F9CF64CA}\InprocServer32]
+@="C:\\Windows\\syswow64\\ContainmentInnerComponent.dll"
+
